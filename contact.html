@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | FlexiPrestige</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/098c571b16.js" crossorigin="anonymous"></script>
+    <style>
+        #contact {
+          padding: 60px 80px;
+          background-color: #f3f4f6;
+        }
+    
+        #contact h2 {
+          font-size: 36px;
+          color: #222;
+          margin-bottom: 20px;
+        }
+    
+        #contact form {
+          background: #fff;
+          padding: 30px;
+          border-radius: 10px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+          max-width: 600px;
+          margin: 0 auto;
+        }
+    
+        #contact form input,
+        #contact form textarea {
+          width: 100%;
+          padding: 12px 15px;
+          margin-bottom: 20px;
+          border: 1px solid #cce7d0;
+          border-radius: 5px;
+          font-size: 16px;
+          font-family: 'Spartan', sans-serif;
+        }
+    
+        #contact form textarea {
+          resize: vertical;
+          height: 120px;
+        }
+    
+        #contact form button {
+          background-color: #088178;
+          color: white;
+          border: none;
+          padding: 12px 30px;
+          font-size: 16px;
+          font-weight: bold;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+    
+        #contact form button:hover {
+          background-color: #066b63;
+        }
+      </style>
+</head>
+<body>
+    <section id="header">
+        <a href="home.html"><img src="img/f.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-brands fa-opencart"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>Get In Touch</h2>
+        <p>We’d love to hear from you!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
